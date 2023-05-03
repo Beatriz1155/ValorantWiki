@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 4px;
+}
+.menu-principal{
+    height: 60px;
+    background-color: black;
+    width: 100%;
+}
+.logo{
+    width: 5%;
+    float: left;
+}
+.Menu{
+    font-family: 'Source Serif Pro', sans-serif ;
+}
+.Menu ul li{
+    display: inline-block;
+    float: left;
+    padding-top: 16px;
+    padding-left: 14px;
+    margin-left: -6px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.Menu ul li a:hover{
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.Menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Menu ul {
+    background-color: black;
+}
+.Menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 2%;
+}
+.Menu ul li a:hover{
+    background-color: red;
+}
+/*Sub Menu*/
+.Menu ul ul{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.Menu ul li:hover ul{
+    display: block;
+}
+.Menu ul ul li a{
+    display: block;
+}
+.Informacao{
+    background-color: #3a3b3c;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.login-button {
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer;
+    padding-top: 1.5%;
+    font-family: 'Source Serif Pro', sans-serif ;
+  }
+.signup-button{
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer;
+    padding-top: 1.5%;
+    font-family: 'Source Serif Pro', sans-serif ;
+}
